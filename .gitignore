@@ -20,3 +20,4 @@ data/raw/
 
 # MacOS
 .DS_Store
+.venv/
