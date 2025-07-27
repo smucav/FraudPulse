@@ -107,17 +107,6 @@ This task is **complete** and includes:
 
 ---
 
-## 🔜 **3️⃣ Task 3: Model Explainability**
-
-Next up:
-
-* Load the best saved models.
-* Use **SHAP (Shapley Additive Explanations)** to interpret global & local feature importance.
-* Generate SHAP **Summary Plots** and **Force Plots** to reveal which features drive fraud predictions.
-* Document insights to understand what behaviors or attributes signal potential fraud.
-
----
-
 ## 📝 **Key Insights (so far)**
 
 * The fraud label is extremely imbalanced (\~9.4% fraud).
@@ -188,11 +177,22 @@ Based on the evaluation metrics, the best-performing model for each dataset is s
 | `Fraud_Data.csv`         | **Logistic Regression** | Higher precision & F1-Score    |
 ---
 
+
+## 🔜 **3️⃣ Task 3: Model Explainability**
+
+Next up:
+
+* Load the best saved models.
+* Use **SHAP (Shapley Additive Explanations)** to interpret global & local feature importance.
+* Generate SHAP **Summary Plots** and **Force Plots** to reveal which features drive fraud predictions.
+* Document insights to understand what behaviors or attributes signal potential fraud.
+
 ## ✅ **Next Steps**
 
 * Complete Task 3: Explain the best models using SHAP.
 * Finalize and deliver a comprehensive report with visuals and recommendations.
 
 ---
+
 
 **Let’s detect fraud — one transaction at a time! 🚦✨**
