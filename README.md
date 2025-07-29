@@ -180,18 +180,24 @@ Based on the evaluation metrics, the best-performing model for each dataset is s
 
 ## 🔜 **3️⃣ Task 3: Model Explainability**
 
-Next up:
+Applied SHAP (Shapley Additive Explanations) to:
+- Understand global feature importance using summary plots
+- Explain individual predictions using force plots
 
-* Load the best saved models.
-* Use **SHAP (Shapley Additive Explanations)** to interpret global & local feature importance.
-* Generate SHAP **Summary Plots** and **Force Plots** to reveal which features drive fraud predictions.
-* Document insights to understand what behaviors or attributes signal potential fraud.
+SHAP is used for:
+- Credit Card Fraud: Random Forest model
+- E-commerce Fraud: Logistic Regression model
 
-## ✅ **Next Steps**
+Generated SHAP plots are saved in `plots/` for reporting.
 
-* Complete Task 3: Explain the best models using SHAP.
-* Finalize and deliver a comprehensive report with visuals and recommendations.
+## 📝 Key Insights
+- The datasets are highly imbalanced; fraud cases are rare
+- Specific transaction amounts, time delays, and device usage patterns indicate fraud signals
+- SHAP analysis reveals which features most influence fraud predictions — giving practical insights for fraud prevention strategies
 
+
+## 👤 Author
+FraudPulse — by [Daniel Tujuma]
 ---
 
 
